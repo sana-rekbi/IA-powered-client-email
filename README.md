@@ -1,27 +1,77 @@
-# AI-Powered Email Client SaaS
+![Full Stack Chat PDF Clone](https://github.com/user-attachments/assets/03580ec6-99f0-4f3e-8a0d-141e15d2e17b)
 
-Welcome to the **AI-Powered Email Client** repository! This project showcases a full-stack, AI-enhanced email client, built with **NextJS 14**, **OpenAI's API**, **Stripe** payments, and **Tailwind CSS** for a responsive and modern UI. It's designed for deployment on **Vercel** and can be used as a foundation for your SaaS application.
+[Link to YouTube Tutorial]([https://www.youtube.com/watch?v=bZFedu-0emE](https://youtu.be/Qm7-7PnszM4))
 
-## 🌟 Features
+# Overview
 
-- **NextJS 14 with App Router**: Seamless routing and server-side rendering for optimal performance.
-- **AI-Powered Email Composition**: Use OpenAI's GPT to compose emails intelligently and quickly.
-- **Aurinko Email API Integration**: Fetch, sync, and manage emails with ease.
-- **Beautiful UI with ShadCN & Tailwind CSS**: A modern, responsive design to enhance user experience.
-- **Payment Integration via Stripe**: Monetize your SaaS with Stripe for subscription-based payments.
-- **Prisma ORM**: Manage your database interactions efficiently.
-- **Full-Text Search**: Quickly search through emails using **Orama**.
-- **Dark Mode**: Enable dark mode for a better user experience.
-- **Vercel Deployment**: Easily deploy this app with Vercel's powerful infrastructure.
+Welcome to this comprehensive full-stack tutorial where we build and deploy a fully featured AI powered email client using NextJS 14. Join me as we build an entire project from the ground up and seamlessly deploy it to Vercel 🚀. The application also includes a subscription feature, where users can subscribe to access premium features. The subscription process is handled using Stripe for payments and webhooks for event processing.
 
-## 🛠️ Technologies Used
 
-- **NextJS 14**: For building server-side and client-side rendered pages.
-- **OpenAI API**: To enable AI-powered features such as email composition.
-- **Stripe**: To manage payments and subscriptions.
-- **ShadCN & Tailwind CSS**: For crafting a beautiful and responsive interface.
-- **Prisma ORM**: To handle database operations.
-- **Aurinko Email API**: For synchronizing and managing emails.
-- **tRPC**: To build type-safe APIs that communicate between the frontend and backend.
+# Technologies and Frameworks
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Clerk
+- Prisma ORM
+- PostgreSQL
+- AWS SDK
+- OpenAI API
+- Stripe
+- Axios
+- Pinecone
+- OpenAI Edge
+- Neon Database Serverless
+- @tanstack/react-query
+- @clerk/nextjs
+- clsx
+- tailwind-merge
+
+# Installation
+
+Follow the steps below to install and setup the project:
+
+1. **Clone the repository**
+
+   Open your terminal and run the following command:
+
+   ```bash
+   git clone https://github.com/Elliott-Chong/normalhuman.git
+   ```
+
+2. **Navigate to the project directory**
+
+   ```bash
+   cd normalhuman
+   ```
+
+3. **Install Node.js**
+
+   The project requires Node.js version 13.4.19 or later. You can download it from [here](https://nodejs.org/en/download/).
+
+4. **Install the required dependencies**
+
+   Run the following command to install all the required dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   This will install all the dependencies listed in the `package.json` file, including Next.js, React, React DOM, Axios, Stripe, Tailwind CSS, and other specific dependencies such as "@aws-sdk/client-s3" and "@clerk/nextjs".
+
+5. **Setup environment variables**
+
+    Create a `.env` file in the root directory of your project and add the required environment variables.
+
+6. **Run the project**
+
+    Now, you can run the project using the following command:
+
+    ```bash
+    npm run dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
