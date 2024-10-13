@@ -23,3 +23,7 @@ Welcome to the **AI-Powered Email Client** repository! This project showcases a 
 - **Prisma ORM**: To handle database operations.
 - **Aurinko Email API**: For synchronizing and managing emails.
 - **tRPC**: To build type-safe APIs that communicate between the frontend and backend.
+- 
+## 🚧 Project Status
+
+This project is currently **under development** and is not yet fully completed.
