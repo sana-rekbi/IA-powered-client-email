@@ -1,6 +1,6 @@
 # AI-Powered Email Client SaaS
 
-Welcome to the **AI-Powered Email Client** repository! This project showcases a full-stack, AI-enhanced email client, built with **NextJS 14**, **OpenAI's API**, **Stripe** payments, and **Tailwind CSS** for a responsive and modern UI. 
+Welcome to the **AI-Powered Email Client** repository! This project showcases a full-stack, AI-enhanced email client, built with **NextJS 14**, **OpenAI's API (GPT-4)**, **Stripe** payments, and **Tailwind CSS** for a responsive and modern UI. 
 
 ## 🌟 Features
 
